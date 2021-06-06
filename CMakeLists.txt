@@ -13,5 +13,9 @@ include_directories (
 
 add_executable(SkodaParsePackages_app
 	package_generator.cpp
+	data_loader.h
+	common_types.h
+	entity_properties.h
+	package_properties.h
 	)
 
